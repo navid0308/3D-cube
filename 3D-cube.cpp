@@ -286,7 +286,7 @@ float getInterpolatedZ(float c[], float i, float j, float min_x, float max_x)
 {
     bool once=false;
     bool twice=false;
-    float z1,z2, x1, x2;
+    float z1=0, z2=0, x1=0, x2=0;
 
     float eq;
 
